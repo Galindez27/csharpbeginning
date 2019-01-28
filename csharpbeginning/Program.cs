@@ -6,7 +6,10 @@ namespace csharpbeginning
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            for (int x = 0; x < 1000; x++)
+            {
+                Console.WriteLine(x);
+            }
         }
     }
 }
